@@ -62,12 +62,12 @@ public class InputReader extends Map{
 				}
 				else
 				{
-					System.out.println("Please input a valid command. Try \"north\", \"south\", \"east\" or \"west\" to move around. You can also tpye \"help\" for more info.");
+					System.out.println("Please input a valid command. Try \"north\", \"south\", \"east\" or \"west\" to move around. You can also type \"help\" for more info.");
 				}
 			}
 			catch (Exception e)
 			{
-				 System.out.println("Please input a valid command. Try \"north\", \"south\", \"east\" or \"west\" to move around. You can also tpye \"help\" for more info.");
+				 System.out.println("Please input a valid command. Try \"north\", \"south\", \"east\" or \"west\" to move around. You can also type \"help\" for more info.");
 			}
 		}
 		
