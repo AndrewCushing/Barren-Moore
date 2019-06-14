@@ -83,7 +83,7 @@ public abstract class Map {
 	}
 
 	public boolean foundLifeJacket(){
-		if (lifeJacketXCoord==xPosition && lifeJacketXCoord==yPosition){
+		if (lifeJacketXCoord==xPosition && lifeJacketYCoord==yPosition){
 			playerHasLifeJacket = true;
 			return true;
 		} else {
